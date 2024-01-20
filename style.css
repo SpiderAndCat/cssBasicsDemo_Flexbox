@@ -69,3 +69,7 @@
     list-style: none;
     margin: 10px;
 }
+
+.premium {
+    order: 1;
+}
