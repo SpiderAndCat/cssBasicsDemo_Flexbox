@@ -1,0 +1,40 @@
+.plan-button {
+    border: 0px;
+    background-color: orange;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.pricing-plan {
+    border-radius: 10px;
+    background-color: lightskyblue;
+    padding: 20px;
+}
+
+.plan-title {
+    font-weight: 900;
+    font-size:larger;
+    color: navy
+}
+
+.plan-price {
+    font-weight: 900;
+    font-size:large;
+    color: #920;
+}
+
+.plan-features {
+    background-color: ghostwhite;
+    font-weight: 300;
+    font-size:medium;
+    color: gray;
+    padding: 20px;
+}
+
+.plan-features > li {
+    list-style: none;
+    margin: 10px;
+}
