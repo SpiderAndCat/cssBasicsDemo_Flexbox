@@ -24,6 +24,25 @@
     border-radius: 10px;
     background-color: lightskyblue;
     padding: 20px;
+    /*
+    Setting `min-width` before in the code, 
+    to show it's authority overwrites
+    even `width` being written after
+    */
+
+    /*
+    Using `width` for default case,
+    where `flex-direction: row`
+
+    Adding logic for `height` in the 
+    `@media` where the `flex-direction` changes
+    to `column`
+    */
+    min-width: 200px; /* Overrules `width` */
+
+    max-height: 500px;
+    width: 50px; /* Will not affect webpage, even though
+                    it's written after*/
 }
 
 .plan-title {
