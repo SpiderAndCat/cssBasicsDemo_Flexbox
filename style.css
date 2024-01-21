@@ -23,9 +23,15 @@
 }
 
 .pricing-plan {
+    flex: 1;
+    text-align: center;
     border-radius: 10px;
     background-color: lightskyblue;
     padding: 20px;
+
+    max-width: 300px;
+
+
     /*
     Setting `min-width` before in the code, 
     to show it's authority overwrites
@@ -50,13 +56,16 @@
 .plan-title {
     font-weight: 900;
     font-size:larger;
-    color: navy
+    color: navy;
+    text-align: center;
 }
 
 .plan-price {
     font-weight: 900;
     font-size:large;
     color: #920;
+    text-align: center;
+
 }
 
 .plan-features {
